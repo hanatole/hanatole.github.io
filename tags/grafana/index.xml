@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Grafana on Anatole HAGBE | DevOps &amp; Cloud Engineer</title><link>https://hanatole.github.io/tags/grafana/</link><description>Recent content in Grafana on Anatole HAGBE | DevOps &amp; Cloud Engineer</description><generator>Hugo</generator><language>en-us</language><managingEditor>ahagbes89@gmail.com (Anatole HAGBE)</managingEditor><webMaster>ahagbes89@gmail.com (Anatole HAGBE)</webMaster><lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://hanatole.github.io/tags/grafana/index.xml" rel="self" type="application/rss+xml"/><item><title>Observability Stack</title><link>https://hanatole.github.io/portfolio/observability-stack/</link><pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate><author>ahagbes89@gmail.com (Anatole HAGBE)</author><guid>https://hanatole.github.io/portfolio/observability-stack/</guid><description>&lt;p&gt;A complete open-source observability solution deployed on Kubernetes using the LGTM stack (Loki, Grafana, Tempo, Mimir).&lt;/p&gt;
+&lt;h2 id="features"&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Metrics collection with Prometheus + Mimir for long-term storage&lt;/li&gt;
+&lt;li&gt;Log aggregation with Loki and Promtail&lt;/li&gt;
+&lt;li&gt;Distributed tracing with Tempo&lt;/li&gt;
+&lt;li&gt;Pre-built Grafana dashboards for Kubernetes and common services&lt;/li&gt;
+&lt;li&gt;Alertmanager rules for SLO-based alerts&lt;/li&gt;
+&lt;li&gt;Helm chart for one-command deployment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="tech-stack"&gt;Tech Stack&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Prometheus&lt;/code&gt; &lt;code&gt;Grafana&lt;/code&gt; &lt;code&gt;Loki&lt;/code&gt; &lt;code&gt;Tempo&lt;/code&gt; &lt;code&gt;Mimir&lt;/code&gt; &lt;code&gt;Helm&lt;/code&gt; &lt;code&gt;Kubernetes&lt;/code&gt;&lt;/p&gt;</description></item></channel></rss>

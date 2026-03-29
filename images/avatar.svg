@@ -1,0 +1,29 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4ade80;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#16a34a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#15803d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="200" cy="200" r="200" fill="url(#bg)" />
+  <!-- Body -->
+  <ellipse cx="200" cy="310" rx="90" ry="70" fill="url(#body)" />
+  <!-- Head -->
+  <circle cx="200" cy="165" r="72" fill="#fef3c7" />
+  <!-- Eyes -->
+  <circle cx="178" cy="158" r="9" fill="#1f2937" />
+  <circle cx="222" cy="158" r="9" fill="#1f2937" />
+  <!-- Eye shine -->
+  <circle cx="182" cy="154" r="3" fill="white" />
+  <circle cx="226" cy="154" r="3" fill="white" />
+  <!-- Smile -->
+  <path d="M 178 185 Q 200 205 222 185" stroke="#1f2937" stroke-width="3.5" fill="none" stroke-linecap="round" />
+  <!-- Terminal icon on shirt -->
+  <rect x="174" y="288" width="52" height="36" rx="5" fill="#0f1117" />
+  <text x="180" y="313" font-family="monospace" font-size="14" fill="#22c55e">$_</text>
+</svg>

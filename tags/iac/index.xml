@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Iac on Anatole HAGBE | DevOps &amp; Cloud Engineer</title><link>https://hanatole.github.io/tags/iac/</link><description>Recent content in Iac on Anatole HAGBE | DevOps &amp; Cloud Engineer</description><generator>Hugo</generator><language>en-us</language><managingEditor>ahagbes89@gmail.com (Anatole HAGBE)</managingEditor><webMaster>ahagbes89@gmail.com (Anatole HAGBE)</webMaster><lastBuildDate>Fri, 20 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hanatole.github.io/tags/iac/index.xml" rel="self" type="application/rss+xml"/><item><title>Writing Terraform Modules That Don't Suck</title><link>https://hanatole.github.io/blog/terraform-modules-that-dont-suck/</link><pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate><author>ahagbes89@gmail.com (Anatole HAGBE)</author><guid>https://hanatole.github.io/blog/terraform-modules-that-dont-suck/</guid><description>&lt;p&gt;I&amp;rsquo;ve read a lot of Terraform that made me want to close my laptop and go work at a coffee shop. Over the years, I&amp;rsquo;ve collected patterns that separate good modules from painful ones.&lt;/p&gt;
+&lt;h2 id="the-anatomy-of-a-good-module"&gt;The anatomy of a good module&lt;/h2&gt;
+&lt;p&gt;A well-structured Terraform module looks like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;module/
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;├── main.tf # Core resources
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;├── variables.tf # Input variables with validation
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;├── outputs.tf # Useful outputs
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;├── versions.tf # Provider version constraints
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;├── README.md # Auto-generated with terraform-docs
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;└── examples/
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; └── basic/ # Working example
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This isn&amp;rsquo;t revolutionary — it&amp;rsquo;s what &lt;code&gt;terraform-docs&lt;/code&gt; and the Terraform registry expect.&lt;/p&gt;</description></item><item><title>Terraform AWS Baseline</title><link>https://hanatole.github.io/portfolio/terraform-aws-baseline/</link><pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate><author>ahagbes89@gmail.com (Anatole HAGBE)</author><guid>https://hanatole.github.io/portfolio/terraform-aws-baseline/</guid><description>&lt;p&gt;An open-source Terraform module set that bootstraps a secure AWS multi-account organization from scratch, following AWS Well-Architected Framework guidelines.&lt;/p&gt;
+&lt;h2 id="modules-included"&gt;Modules Included&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Organization&lt;/strong&gt; — AWS Organizations + SSO setup&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Networking&lt;/strong&gt; — VPC, subnets, Transit Gateway, VPN&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Security&lt;/strong&gt; — GuardDuty, Security Hub, Config, CloudTrail&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IAM&lt;/strong&gt; — Permission sets, SCPs, IAM Identity Center&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Logging&lt;/strong&gt; — Centralized log archive account&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; — CloudWatch alarms + SNS baseline&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="tech-stack"&gt;Tech Stack&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Terraform&lt;/code&gt; &lt;code&gt;AWS&lt;/code&gt; &lt;code&gt;Python&lt;/code&gt; &lt;code&gt;GitHub Actions&lt;/code&gt; &lt;code&gt;Terratest&lt;/code&gt;&lt;/p&gt;</description></item></channel></rss>

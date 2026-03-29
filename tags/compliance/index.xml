@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Compliance on Anatole HAGBE | DevOps &amp; Cloud Engineer</title><link>https://hanatole.github.io/tags/compliance/</link><description>Recent content in Compliance on Anatole HAGBE | DevOps &amp; Cloud Engineer</description><generator>Hugo</generator><language>en-us</language><managingEditor>ahagbes89@gmail.com (Anatole HAGBE)</managingEditor><webMaster>ahagbes89@gmail.com (Anatole HAGBE)</webMaster><lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hanatole.github.io/tags/compliance/index.xml" rel="self" type="application/rss+xml"/><item><title>Terraform AWS Baseline</title><link>https://hanatole.github.io/portfolio/terraform-aws-baseline/</link><pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate><author>ahagbes89@gmail.com (Anatole HAGBE)</author><guid>https://hanatole.github.io/portfolio/terraform-aws-baseline/</guid><description>&lt;p&gt;An open-source Terraform module set that bootstraps a secure AWS multi-account organization from scratch, following AWS Well-Architected Framework guidelines.&lt;/p&gt;
+&lt;h2 id="modules-included"&gt;Modules Included&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Organization&lt;/strong&gt; — AWS Organizations + SSO setup&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Networking&lt;/strong&gt; — VPC, subnets, Transit Gateway, VPN&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Security&lt;/strong&gt; — GuardDuty, Security Hub, Config, CloudTrail&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IAM&lt;/strong&gt; — Permission sets, SCPs, IAM Identity Center&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Logging&lt;/strong&gt; — Centralized log archive account&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; — CloudWatch alarms + SNS baseline&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="tech-stack"&gt;Tech Stack&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Terraform&lt;/code&gt; &lt;code&gt;AWS&lt;/code&gt; &lt;code&gt;Python&lt;/code&gt; &lt;code&gt;GitHub Actions&lt;/code&gt; &lt;code&gt;Terratest&lt;/code&gt;&lt;/p&gt;</description></item></channel></rss>

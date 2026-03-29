@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gitops on Anatole HAGBE | DevOps &amp; Cloud Engineer</title><link>https://hanatole.github.io/tags/gitops/</link><description>Recent content in Gitops on Anatole HAGBE | DevOps &amp; Cloud Engineer</description><generator>Hugo</generator><language>en-us</language><managingEditor>ahagbes89@gmail.com (Anatole HAGBE)</managingEditor><webMaster>ahagbes89@gmail.com (Anatole HAGBE)</webMaster><lastBuildDate>Tue, 10 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hanatole.github.io/tags/gitops/index.xml" rel="self" type="application/rss+xml"/><item><title>GitOps Is Not Just ArgoCD</title><link>https://hanatole.github.io/blog/gitops-is-not-just-argocd/</link><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate><author>ahagbes89@gmail.com (Anatole HAGBE)</author><guid>https://hanatole.github.io/blog/gitops-is-not-just-argocd/</guid><description>&lt;p&gt;GitOps has become one of the most overloaded terms in the DevOps space. You mention it in a meeting and everyone nods — but ask them to define it and you&amp;rsquo;ll get five different answers.&lt;/p&gt;
+&lt;p&gt;Let me offer a cleaner mental model.&lt;/p&gt;
+&lt;h2 id="gitops-is-a-set-of-principles-not-a-tool"&gt;GitOps is a set of principles, not a tool&lt;/h2&gt;
+&lt;p&gt;The &lt;a href="https://opengitops.dev"&gt;OpenGitOps&lt;/a&gt; project defines four core principles:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Declarative&lt;/strong&gt; — The desired state of the system is expressed declaratively&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Versioned and immutable&lt;/strong&gt; — The desired state is stored in a way that preserves history&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pulled automatically&lt;/strong&gt; — Approved changes are applied automatically&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Continuously reconciled&lt;/strong&gt; — Software agents continuously ensure actual state matches desired state&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Notice that none of these say &amp;ldquo;use ArgoCD&amp;rdquo; or &amp;ldquo;use Flux.&amp;rdquo;&lt;/p&gt;</description></item></channel></rss>
