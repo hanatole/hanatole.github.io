@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Traefik on Anatole HAGBE | DevOps &amp; Cloud Engineer</title><link>https://hanatole.github.io/tags/traefik/</link><description>Recent content in Traefik on Anatole HAGBE | DevOps &amp; Cloud Engineer</description><generator>Hugo</generator><language>en-us</language><managingEditor>ahagbes89@gmail.com (Anatole HAGBE)</managingEditor><webMaster>ahagbes89@gmail.com (Anatole HAGBE)</webMaster><lastBuildDate>Sat, 04 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hanatole.github.io/tags/traefik/index.xml" rel="self" type="application/rss+xml"/><item><title>Self-Hosted Docker Registry on a Budget VPS</title><link>https://hanatole.github.io/portfolio/nexus-on-vps/</link><pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate><author>ahagbes89@gmail.com (Anatole HAGBE)</author><guid>https://hanatole.github.io/portfolio/nexus-on-vps/</guid><description>&lt;p&gt;A fully operational private Docker registry and artifact store running on a 1 Gi RAM / 25 Gi SSD VPS — well below Sonatype&amp;rsquo;s recommended 8 Gi minimum. Includes JVM memory tuning, automatic TLS, PostgreSQL persistence, and CI/CD integration.&lt;/p&gt;
+&lt;h2 id="what-it-does"&gt;What it does&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Private Docker registry at a custom subdomain with automatic TLS via Traefik and Let&amp;rsquo;s Encrypt&lt;/li&gt;
+&lt;li&gt;Sonatype Nexus 3 UI for repository management, user administration, and cleanup policies&lt;/li&gt;
+&lt;li&gt;PostgreSQL backend for reliable metadata persistence and crash-safe restarts&lt;/li&gt;
+&lt;li&gt;JVM tuned for constrained environments: G1GC, string deduplication, conservative heap sizing&lt;/li&gt;
+&lt;li&gt;Dedicated CI/CD user with least-privilege role for pipeline pushes and pulls&lt;/li&gt;
+&lt;li&gt;Automated blob store cleanup to prevent SSD exhaustion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="tech-stack"&gt;Tech Stack&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Sonatype Nexus 3&lt;/code&gt; &lt;code&gt;Docker&lt;/code&gt; &lt;code&gt;Traefik&lt;/code&gt; &lt;code&gt;PostgreSQL&lt;/code&gt; &lt;code&gt;Ubuntu 22.04&lt;/code&gt; &lt;code&gt;Let's Encrypt&lt;/code&gt; &lt;code&gt;GitLab CI/CD&lt;/code&gt;&lt;/p&gt;</description></item></channel></rss>
